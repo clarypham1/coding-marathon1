@@ -54,9 +54,9 @@ const BookCollection = () => {
                 <input type="text" name="language" placeholder="Language" value={formData.language} onChange={handleChangeBook} required />
                 <input type="text" name="edition" placeholder="Edition" value={formData.edition} onChange={handleChangeBook} required />
                 <input type="number" name="pages" placeholder="Pages" value={formData.pages} onChange={handleChangeBook} required />
-                <input type="number" step="0.1" name="rating" placeholder="Rating" value={formData.rating} onChange={handleChangeBook} required />
+                <input type="number" step="1" name="rating" placeholder="Rating" value={formData.rating} onChange={handleChangeBook} required />
                 <input type="number" name="year" placeholder="Year" value={formData.year} onChange={handleChangeBook} required />
-                <button type="submit">Add Book</button>
+                <button type="submit">Add Book Here</button>
             </form>
             <div className="books-center">
                 {booksData.map(book => (
