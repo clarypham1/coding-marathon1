@@ -1,0 +1,32 @@
+.book {
+    background-color: #a0c0e4;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.book p {
+    margin-bottom: 0.25rem;
+    color: #000000;
+
+}
+
+.book button {
+    background-color: #dc5c5c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background-color: #804048;
+}

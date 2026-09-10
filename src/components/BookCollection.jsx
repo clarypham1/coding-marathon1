@@ -1,33 +1,34 @@
-import {useState} from "react";
+import { useState } from "react";
 import Book from "./Book";
+import './BookCollection.css';
 
 const BookCollection = () => {
     const [booksData, setBooksData] = useState([]);
     const [formData, setFormData] = useState({
-            id: 1,
-            title: "The Hobbit",
-            author: "J.R.R. Tolkein",
-            genre: "Fantasy",
-            language: "English",
-            edition: "First Edition",
-            pages: 310,
-            rating: 4.8,
-            year: 1937
-        
+        id: 1,
+        title: "The Hobbit",
+        author: "J.R.R. Tolkein",
+        genre: "Fantasy",
+        language: "English",
+        edition: "First Edition",
+        pages: 310,
+        rating: 4.8,
+        year: 1937
+
     });
 
     const handleChangeBook = (e) => {
         const { name, value } = e.target;
-        setFormData({...formData, [name]: value});
+        setFormData({ ...formData, [name]: value });
     };
 
     const handleAddBook = (e) => {
         e.preventDefault();
-       
-    const newBook = { id: Date.now(), ...formData };
+
+        const newBook = { id: Date.now(), ...formData };
         setBooksData([...booksData, newBook]);
         setFormData({
-            id: 1,
+            id: "",
             title: "",
             author: "",
             genre: "",
@@ -44,7 +45,7 @@ const BookCollection = () => {
     };
 
     return (
-        <section className="book-collection" id="books">
+        <section className="books" id="books">
             <h2>Book Collection</h2>
             <form onSubmit={handleAddBook}>
                 <input type="text" name="title" placeholder="Title" value={formData.title} onChange={handleChangeBook} required />
@@ -57,9 +58,11 @@ const BookCollection = () => {
                 <input type="number" name="year" placeholder="Year" value={formData.year} onChange={handleChangeBook} required />
                 <button type="submit">Add Book</button>
             </form>
-            {booksData.map(book => (
-                <Book key={book.id} {...book} onRemove={handleRemoveBook} />
-            ))}
+            <div className="books-center">
+                {booksData.map(book => (
+                    <Book key={book.id} {...book} onRemove={handleRemoveBook} />
+                ))}
+            </div>
         </section>
     );
 };
