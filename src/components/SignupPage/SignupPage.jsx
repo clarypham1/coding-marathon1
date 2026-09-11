@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./SignupPage.css";
 
-//Ignore random comments they're just fopr my own memory!
+//Ignore random comments they're just fopr my own memory!!
 
 // For the app (LATERRR): <SignupPage />
 
