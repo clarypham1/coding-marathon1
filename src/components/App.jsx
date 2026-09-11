@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import BookCollection from './BookCollection'
+import BookCollection from './BookCollectionManager/BookCollection'
 
 function App() {
   const [count, setCount] = useState(0)
