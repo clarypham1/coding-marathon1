@@ -52,3 +52,6 @@
 
 ## 5. Additional Notes
 - I chose the BookCollectionManager just because others already picked their component, so I challenged myself a bit by not using or looking at the sample code, but tried to make everything by my own, so the result is different from the sample.
+- Individual Score: 40, I think my component works and met all the requirements, but it's not perfect. And I also used AI to help me fix some bugs.
+- Team Score: 33, I think we did great as a team with all git branching, merging, collaborating and deploying. There was a point that we messed things up but we got it fixed
+
