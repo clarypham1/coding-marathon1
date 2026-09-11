@@ -64,10 +64,39 @@
 
 Assessment
 
-Individual assessment : 45
-I completed my RecipeManager component, including adding, viewing and removing recipes. I also add the error for the empty required field, duplicate checking and organized clear and reusable coding.
+Individual assessment : 40
+I completed my RecipeManager component, including adding, viewing and removing recipes. I also add the error for the empty required field, duplicate checking and organized clear and reusable coding. I gave this score because I use AI to solve some bugs.
 
 
-Group Assessment : 35
+Group Assessment : 33
 
-Our team worked well together with Git branching and merging. We communicated and shared our work effectively. Team helped each other. We completed the deployment successfully. 
+Our team worked well together with Git branching and merging. We communicated and shared our work effectively. Team helped each other. We completed the deployment successfully. There is some minor git issues. 
+
+What did you implement? 
+
+- RecipeManager Page
+
+What React concepts did you practice?
+
+- useState
+- handleChange
+- form
+- formData
+- input
+- Select
+- textarea
+
+
+What was challenging?
+
+- to get duplicate recipe and empty recipe field
+
+
+What would you improve in your code?
+
+- commenting, normally, I forget to add comment
+
+
+How did your team collaborate?
+
+- continuous chatting in whatsapp group chat although we didn't complete within our agreed deadline. 
