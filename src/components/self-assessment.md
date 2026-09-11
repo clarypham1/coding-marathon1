@@ -2,11 +2,11 @@
 
 ## Individual Score: 44/45
 
-I give myself 45 out of 45 points. I completed the ShoppingCart component and implemented the required Create, Read, and Delete operations. I also used controlled inputs, useState, map(), and separated the Item component into its own file.
+I give myself 44 out of 45 points. I completed the ShoppingCart component and implemented the required Create, Read, and Delete operations. I also used controlled inputs, useState, map(), and separated the Item component into its own file.
 
 I still have some areas to improve, especially writing cleaner React code and becoming more confident with Git.
 
-## Group Score: 30/35
+## Group Score: 35/35
 
 I give our group 35 out of 35 points.
 
